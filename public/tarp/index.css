@@ -1,0 +1,7 @@
+.list-group-item {
+    /*border: none;*/
+}
+
+ul .list-group-item:first-child {
+    font-weight: bold;
+}
