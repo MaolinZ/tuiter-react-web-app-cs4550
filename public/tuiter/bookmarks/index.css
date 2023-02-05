@@ -3,8 +3,15 @@
     margin-left: 5%;
 }
 
+.wd-page-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 0px;
+}
+
 .wd-topbar {
-    padding: 16px 12px;
+    padding: 12px 16px;
     color: lightgray;
     font-size: 13px;
 }
@@ -17,8 +24,17 @@
 .wd-avatar {
     width: 48px;
     height: 48px;
-    border-radius: 16px;
+    border-radius: 100%;
     margin-right: 16px;
+}
+
+.wd-thumbnail-post-wrapper {
+    padding: 12px 16px;
+    border: 1px solid rgb(47, 51, 54);
+    border-top: none;
+    font-size: 13px;
+    color: rgb(110, 118, 125);
+    display: flex;
 }
 
 .wd-large-thumbnail {
@@ -39,12 +55,12 @@
 }
 
 .wd-post-text {
-    padding: ;
 }
 
-.wd-thumbnail-post-wrapper {
+.wd-thumbnail-post {
     display: block;
     width: 100%;
+    font-size: 15px;
 }
 
 .wd-user {
