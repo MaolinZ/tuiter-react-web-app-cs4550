@@ -41,16 +41,20 @@ body {
 .wd-tabs-list {
     display: block;
     width: 100%;
-    height: 20px;
+    height: 22px;
     padding: 0px 0px;
     font-weight: bold;
-    color: rgb(110, 118, 125);
 }
 
 .wd-tab {
     display: inline;
     font-size: 15px;
     padding: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 118, 125);
 }
 
 .wd-selected {
@@ -64,15 +68,36 @@ body {
 
 }
 
-.wd-post {
+.wd-post-wrapper {
     padding: 16px;
     border: 1px solid rgb(47, 51, 54);
+    border-top: none;
     font-size: 13px;
     color: rgb(110, 118, 125);
+    display: flex;
 }
 
-.wd-author {}
-.wd-image {}
-.wd-topic {}
-.wd-title {}
-.wd-text {}
+.wd-post-text {
+    display: block;
+    width: 100%;
+}
+
+.wd-author {
+    display: inline;
+    font-weight: bold;
+    color: white;
+    margin: 5px 0;
+}
+
+.wd-thumbnail {
+    border-radius: 20px;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.wd-title {
+    font-weight: bold;
+    margin: 5px 0;
+    color: white;
+}
