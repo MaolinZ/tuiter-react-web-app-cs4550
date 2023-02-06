@@ -70,3 +70,15 @@ a {
     font-weight: bold;
     margin: 5px 0;
 }
+
+.wd-post-text {
+    display: block;
+    width: 100%;
+}
+
+.wd-thumbnail {
+    border-radius: 20px;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
