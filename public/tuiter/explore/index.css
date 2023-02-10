@@ -1,36 +1,66 @@
-
-
-#navbar-container {
-    background-color: #0d6efd;
+.bg-primary {
+    color: #1DA1F2;
 }
 
-#navbar .list-group-item {
+#navbar-container {
+    /*background-color: #0d6efd;*/
+}
+
+#navbar a.list-group-item {
+    font-size: 20px;
 }
 
 #navbar i {
     width: 16px;
     height: 18px;
-    margin-right: 4px;
+    margin: 0px 10px;
 }
 
-#content-container {
-    background-color: #0d6efd;
+#main-feed {
+    /*background-color: #0c4128;*/
+    border: black solid 2px;
 }
 
 #sidebar-container {
-    background-color: #0a53be;
+    background-color: #6a1a21;
 }
 
-#search-bar {
-    background-color: darkslategray;
+#tweet {
+    font-size: 20px;
+}
+
+#top-bar {
+}
+
+#search-bar-wrapper {
+    border: lightgray solid 1px;
     border-radius: 30px;
+    background-color: white;
 }
 
-.search-input {
+.search-icon {
+    position: relative;
+    top: 4px;
     background-color: transparent;
     border: none;
 }
 
-.search-input:focus {
-    outline: none;
+#search-input {
+    background-color: transparent;
+    border: none;
 }
+
+#search-input:focus {
+    box-shadow: none;
+}
+
+#settings {
+    font-size: 25px;
+    float: right;
+    margin-right: 20px;
+}
+
+.container-fluid {
+    max-width: 75%;
+}
+
