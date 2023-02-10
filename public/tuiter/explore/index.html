@@ -1,75 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="../styles.css">
-    <link rel="stylesheet" href=index.css>
+    <link rel="stylesheet" href="../../vendors/bootstrap/css/bootstrap.min.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+          rel="stylesheet"/>
+    <link rel="stylesheet" href="../../vendors/fontawesome/css/all.css"/>
+    <link rel="stylesheet" href="index.css"/>
     <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Explore</title>
 </head>
 <body>
-<div class="wd-container">
-    <div class="wd-border">
-        <input class="wd-search-bar" type="text" placeholder="Search Twitter">
-        <a href="explore-settings.html">
-            <img class="wd-settings-icon"
-                 src="https://icons.iconarchive.com/icons/dtafalonso/android-lollipop/512/Settings-icon.png" alt="">
-        </a>
-        <ul class="wd-tabs-list">
-            <li class="wd-tab"><a class="wd-selected" href="#">For you</a></li>
-            <li class="wd-tab"><a href="#">Trending</a></li>
-            <li class="wd-tab"><a href="#">COVID-19</a></li>
-            <li class="wd-tab"><a href="#">News</a></li>
-            <li class="wd-tab"><a href="#">Sports</a></li>
-            <li class="wd-tab"><a href="#">Entertainment</a></li>
+<div class="container row m-0">
+    <h2>Hiding and showing responsive content</h2>
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
+    <div id="navbar-container" class="container col-xxl-3 col-xl-2">
+        <ul id="navbar" class="list-group">
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-house-chimney"></i>
+                Home
+            </a>
+            <a class="list-group-item active" href="#">
+                <i class="fa-solid fa-hashtag"></i>
+                Explore
+            </a>
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-bell"></i>
+                Notifications
+            </a>
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-envelope"></i>
+                Messages
+            </a>
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-bookmark"></i>
+                Bookmarks
+            </a>
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-list"></i>
+                Lists
+            </a>
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-user"></i>
+                Profile
+            </a>
+            <a class="list-group-item" href="#">
+                <i class="fa-solid fa-ellipsis"></i>
+                More
+            </a>
         </ul>
     </div>
-    <div class="wd-posts-container">
-        <div class="wd-post-wrapper">
-            <div class="wd-post-text">
-                Trending in Science
-                <p class="wd-title">Starship</p>
-                55.5K Tuits
-            </div>
+    <div id="content" class="container col-xxl-6 col-xl-4">
+        <div id="search-bar" class="container m-auto">
+            <input type="text" placeholder="Search Twitter" class="search-input p-2">
+            <i class="fa-sharp fa-solid fa-gear"></i>
         </div>
-        <div class="wd-post-wrapper">
-            <div class="wd-post-text">
-                Sports Trending
-                <p class="wd-title">Joe Rogan</p>
-                5,218 Tuits
-            </div>
-        </div>
-        <div class="wd-post-wrapper">
-            <div class="wd-post-text">
-                <h4 class="wd-author">The New York Times</h4> • Yesterday
-                <p class="wd-title">Man Enjoys Himself Eating a Large Burger</p>
-            </div>
-            <img class="wd-thumbnail" src="../../kel.jpg" alt="">
-        </div>
-        <div class="wd-post-wrapper">
-            <div class="wd-post-text">
-                <h4 class="wd-author">The New York Times</h4> • Today
-                <p class="wd-title">BREAKING: A Different Man Eats a Steak</p>
-            </div>
-            <img class="wd-thumbnail" src="../../steak.jpg" alt="">
-        </div>
-        <div class="wd-post-wrapper">
-            <div class="wd-post-text">
-                COVID-19 • LIVE
-                <p class="wd-title">COVID-19: News and updates</p>
-            </div>
-            <img class="wd-thumbnail"
-                 src="https://www.newcastlepa.org/wp-content/uploads/2020/03/COVID-19-Update_Twitter-1.jpg"
-                 alt="">
-        </div>
-        <div class="wd-post-wrapper">
-            <div class="wd-post-text">
-                Geology • Yesterday
-                <p class="wd-title">Rocks: Scientists discover rocks to be hard unless they're not</p>
-            </div>
-            <img class="wd-thumbnail"
-                 src="https://nationaltoday.com/wp-content/uploads/2021/08/National-Pet-Rock-Day-640x514.jpg"
-                 alt="">
-        </div>
+        bruh
+    </div>
+    <div id="sidebar-container" class="container col-xxl-6 col-xl-4">
+        <ul id="follow-sidebar" class="list-group">
+
+        </ul>
     </div>
 </div>
 </body>
