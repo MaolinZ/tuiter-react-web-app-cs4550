@@ -13,7 +13,7 @@
     <title>Explore</title>
 </head>
 <body>
-<div id="base" class="container mt-2">
+<div id="base" class="container">
     <div>
         <div class="d-block d-sm-none fa-2x">XS</div>
         <div class="d-none d-sm-block d-md-none fa-2x">S</div>
@@ -22,8 +22,8 @@
         <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
         <div class="d-none d-xxl-block fa-2x">XXL</div>
     </div>
-    <div id="content-container" class="row">
-        <div id="left-sidebar" class="col-xxl-3 col-xl-2">
+    <div id="content-container" class="row mt-2">
+        <div id="left-sidebar" class="col-xxl-2 col-xl-2">
             <div id="navbar-container" class="mb-3">
                 <div id="navbar" class="list-group">
                     <a class="list-group-item" href="#">
@@ -65,9 +65,9 @@
             </div>
             <button id="tweet" class="btn-primary rounded-pill w-100 py-2">Tweet</button>
         </div>
-        <div id="main-feed" class="col-xxl-5 col-xl-4">
-            <div id="top-bar">
-                <div id="search-bar-wrapper" class="d-inline-flex col-10">
+        <div id="main-feed" class="col-xxl-6 col-xl-4">
+            <div id="top-bar" class="mb-2">
+                <div id="search-bar-wrapper" class="d-inline-flex col-11">
                     <i class="fa-solid fa-magnifying-glass search-icon input-group-text"></i>
                     <input type="text"
                            title="Search Twitter"
@@ -77,8 +77,69 @@
                 </div>
                 <a id="settings" href="#"><i class="fa-sharp fa-solid fa-gear col-1"></i></a>
             </div>
-            <div class="list-group-item">
-                bruh
+            <ul class="nav nav-tabs mb-2">
+                <li class="nav-item"><a class="nav-link active" href="#">For you</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Trending</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">News</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Sports</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Entertainment</a></li>
+            </ul>
+            <div class="image-container container position-relative p-0">
+                <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" alt=""
+                     class="img-fluid">
+                <h2 class="image-title">SpaceX's Starship</h2>
+            </div>
+            <div class="feed-content container p-0 list-group">
+                <div class="list-group-item text-muted d-flex">
+                    <div class="mx-1 w-100">
+                        Web Development <br>
+                        <div class="d-inline-flex">
+                            <p class="h4 text-black fw-bold">ReactJS</p>
+                            <i class="fa-solid fa-circle-check px-2 text-black"></i>
+                        </div>
+                        - 2h
+                        <p class="h5 text-black fw-bold">
+                            React.js is a component based front end library that makes it very easy to build Single Page
+                            Applications or SPAs
+                        </p>
+                    </div>
+                    <img class="post-thumbnail white ms-2" src="react-black.png" alt="">
+                </div>
+                <div class="list-group-item text-muted d-flex">
+                    <div class="mx-1 w-100">
+                        <div class="d-inline-flex">
+                            <p class="h4 text-black fw-bold">JavaScript</p>
+                            <i class="fa-solid fa-circle-check px-2 text-black"></i>
+                        </div>
+                        - 2h
+                        <p class="h5 text-black fw-bold">
+                            JavaScript is a programming language that can run on browsers as well as laptops
+                        </p>
+                        123K Tweets
+                    </div>
+                    <img class="post-thumbnail white ms-3" src="JavaScript-logo.png" alt="">
+                </div>
+                <div class="list-group-item text-muted d-flex">
+                    <div class="mx-1 w-100">
+                        Web Development <br>
+                        <p class="h4 text-black fw-bold">jQuery</p>
+                        123K Tweets
+                    </div>
+                    <img class="post-thumbnail white ms-3" src="jQuery.png" alt="">
+                </div>
+                <div class="list-group-item text-muted d-flex">
+                    <div class="mx-1 w-100">
+                        Web Development <br>
+                        <div class="d-inline-flex">
+                            <p class="h4 text-black fw-bold">NodeJS</p>
+                            <i class="fa-solid fa-circle-check px-2 text-black"></i>
+                        </div>
+                        - 2h
+                        <br>
+                        123K Tweets
+                    </div>
+                    <img class="post-thumbnail white ms-3" src="nodejs.jpg" alt="">
+                </div>
             </div>
         </div>
         <div id="sidebar-container" class="col-xxl-4 col-xl-4">
