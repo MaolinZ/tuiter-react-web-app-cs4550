@@ -6,6 +6,10 @@
     font-size: 16px;
 }
 
+#wd-explore {
+    letter-spacing: 0.8px;
+}
+
 #search-bar-wrapper {
     border: lightgray solid 1px;
     border-radius: 30px;
@@ -35,6 +39,7 @@
 .image-title {
     position: absolute;
     font-weight: bold;
+    font-size: 2rem;
     bottom: 0px;
     color: white;
     padding-left: 10px;
@@ -58,6 +63,11 @@
 
 .feed-content .list-group-item p {
     line-height: 1.6;
+}
+
+.feed-content i {
+    color: white;
+    padding-top: 2px;
 }
 
 .h4 {
