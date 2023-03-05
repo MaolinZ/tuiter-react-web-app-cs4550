@@ -1,0 +1,91 @@
+#navbar a.list-group-item {
+    font-size: 16px;
+}
+
+#tweet {
+    font-size: 16px;
+}
+
+#wd-explore {
+    letter-spacing: 0.8px;
+}
+
+#search-bar-wrapper {
+    border: lightgray solid 1px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+#search-bar-wrapper:focus {
+    border: #0d6efd solid 1px;
+}
+
+#search-icon {
+    position: relative;
+    top: 4px;
+    background-color: transparent;
+    border: none
+}
+
+#search-input {
+    background-color: transparent;
+    border: none;
+}
+
+#search-input:focus {
+    box-shadow: none;
+}
+
+.image-title {
+    position: absolute;
+    font-weight: bold;
+    font-size: 2rem;
+    bottom: 0px;
+    color: white;
+    padding-left: 10px;
+}
+
+#settings {
+    position: relative;
+    bottom: 5px;
+    font-size: 30px;
+    float: right;
+}
+
+.feed-content {
+    font-size: 15px;
+}
+
+.feed-content .list-group-item i {
+    position: relative;
+    top: 2px;
+}
+
+.feed-content .list-group-item p {
+    line-height: 1.6;
+}
+
+.feed-content i {
+    color: white;
+    padding-top: 2px;
+}
+
+#who-to-follow-label {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.post-thumbnail {
+    border-radius: 20px;
+    float: right;
+    width: 100px;
+    height: 100px;
+}
+
+.avatar-rounded {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+
