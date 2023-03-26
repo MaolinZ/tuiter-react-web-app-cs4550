@@ -35,7 +35,7 @@ export default function OldHome() {
                 <a className="list-group-item" href="canvas/index.html">Canvas</a>
                 <a className="list-group-item" href="tarp/index.html">Tarp</a>
                 <a className="list-group-item"
-                   href="tuiter/navigation.html">Tuiter</a>
+                   href="old-tuiter/navigation.html">Tuiter</a>
             </div>
         </div>
     )

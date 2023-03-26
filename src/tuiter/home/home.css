@@ -1,0 +1,18 @@
+.post-avatar {
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+}
+
+.tuit-body {
+    line-height: 1.7em;
+    word-spacing: 0.1em;
+}
+
+.delete-tuit:hover {
+    cursor: pointer;
+}
+
+.like-icon:hover {
+    cursor: pointer;
+}

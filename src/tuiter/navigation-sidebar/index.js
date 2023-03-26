@@ -1,8 +1,9 @@
 import React from "react"
+import {Link, useParams} from "react-router-dom";
 
 const NavigationSidebar = (
     {
-        active = 'explore'
+        active = 'home'
     }) => {
 
     return (<div id="navbar-container" className="mb-3">
@@ -11,16 +12,16 @@ const NavigationSidebar = (
                href="../navigation.html">
                 <i className="fa-brands fa-twitter"></i>
             </a>
-            <a className={`list-group-item ${active === 'home' ? 'active ' : ''}`}
-               href="#">
+            <Link className={`list-group-item ${active === 'home' ? 'active ' : ''}`}
+               to="/tuiter">
                 <i className="fa-solid fa-house-chimney pe-1"></i>
                 <span className="d-xl-inline d-none">Home</span>
-            </a>
-            <a className={`list-group-item ${active === 'explore' ? 'active ' : ''}`}
-               href="#">
+            </Link>
+            <Link className={`list-group-item ${active === 'explore' ? 'active ' : ''}`}
+               to="/tuiter/explore">
                 <i className="fa-solid fa-hashtag pe-1"></i>
                 <span className="d-xl-inline d-none">Explore</span>
-            </a>
+            </Link>
             <a className={`list-group-item ${active === 'notifications' ? 'active ' : ''}`}
                href="#">
                 <i className="fa-solid fa-bell pe-1"></i>
