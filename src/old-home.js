@@ -32,6 +32,10 @@ export default function OldHome() {
                 <a className="list-group-item"
                    href="https://a6--luxury-dodol-0ad756.netlify.app/">A6 Deploy
                     - React</a>
+                <Link className="list-group-item" to={"/a7"}>A7 Lab</Link>
+                <a className="list-group-item"
+                   href="https://a7--luxury-dodol-0ad756.netlify.app/">A7 Deploy
+                    - Redux</a>
                 <a className="list-group-item" href="canvas/index.html">Canvas</a>
                 <a className="list-group-item" href="tarp/index.html">Tarp</a>
                 <a className="list-group-item"
