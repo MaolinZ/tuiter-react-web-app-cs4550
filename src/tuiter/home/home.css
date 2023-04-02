@@ -16,3 +16,7 @@
 .like-icon:hover {
     cursor: pointer;
 }
+
+.dislike-icon:hover {
+    cursor: pointer;
+}
